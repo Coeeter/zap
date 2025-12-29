@@ -20,8 +20,7 @@ var rootCmd = &cobra.Command{
 		}
 
 		if targetFolder == "" {
-			cmd.Help()
-			return nil
+			return cmd.Help()
 		}
 
 		root, err := os.Getwd()

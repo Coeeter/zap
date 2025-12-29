@@ -34,3 +34,6 @@ tmp/*
 .env*
 !.env.example
 
+# Binary files
+zap
+bin/
