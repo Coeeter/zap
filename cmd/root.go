@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/coeeter/zap/scan"
+	"github.com/coeeter/zap/internal/scan"
 	"github.com/spf13/cobra"
 )
 
