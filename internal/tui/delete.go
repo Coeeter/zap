@@ -189,8 +189,7 @@ func RunDelete(paths []string) (DeleteResult, error) {
 
 	model := NewDeleteModel(paths)
 
-	p := tea.NewProgram(model)
-	finalModel, err := p.Run()
+	finalModel, err := tea.NewProgram(model).Run()
 	if err != nil {
 		return DeleteResult{}, fmt.Errorf("error running delete TUI: %w", err)
 	}
