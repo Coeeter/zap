@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/coeeter/ntmux/main/schema.json",
+  "sessions": [
+    {
+      "name": "zap",
+      "windows": [
+        {
+          "name": "editor",
+          "cmd": "nvim .",
+          "default": true
+        },
+        {
+          "name": "terminal"
+        }
+      ],
+      "default": true
+    }
+  ]
+}
