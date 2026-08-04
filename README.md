@@ -2,6 +2,8 @@
 
 A fast, interactive CLI for finding and deleting folders (e.g. `node_modules`, `build`, `.cache`).
 
+![zap demo](./docs/demo.svg)
+
 ## Installation
 
 ```bash
@@ -77,3 +79,7 @@ zap                    # Opens prompt, defaults to node_modules
 3. Optional: preview folder contents before deciding
 4. Deletes selected folders in parallel
 5. Shows summary
+
+## License
+
+[MIT](./LICENSE)
